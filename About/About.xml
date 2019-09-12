@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Surgery Armor Fix</name>
+	<author>LockdownX7</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<url>https://github.com/LockdownX7/SurgeryArmorFix</url>
+	<description>Makes injuries from surgery failures bypass armor, as it used to be in earlier versions of Rimworld.</description>
+</ModMetaData>

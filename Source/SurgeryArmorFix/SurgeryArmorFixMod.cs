@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace SurgeryArmorFix
     {
         static SurgeryArmorFixMod()
         {
-            var harmony = HarmonyInstance.Create("lockdownx7.rimworld.surgeryarmorfix");
+            var harmony = new Harmony("lockdownx7.rimworld.surgeryarmorfix");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
